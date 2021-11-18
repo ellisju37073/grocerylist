@@ -37,4 +37,4 @@ app.set('view engine', 'hbs');
 const routes = require('./server/routes/user');
 app.use('/', routes);
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, '192.168.86.200', () => console.log(`Listening on port ${port}`));
